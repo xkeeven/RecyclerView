@@ -22,8 +22,9 @@ namespace RecyclerView
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
 
-            FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
-            fab.Click += FabOnClick;
+            //Testing
+            /*FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
+            fab.Click += FabOnClick;*/
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
